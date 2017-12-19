@@ -17,14 +17,14 @@ The test suite for tournament.py taht validates all of the SQL and python code t
 2. Download Vagrant - https://www.vagrantup.com/downloads.html
 3. Download Virtual Box - https://www.virtualbox.org/wiki/Downloads
 4. Open Terminal if on Mac, or Command Window if on Windows and go to the /vagrant directory of your cloned/downloaded repository
-5. Enter the command 'vagrant up'
-6. Enter the command 'vagrant ssh'
-7. Change directories to the tournament folder - "cd /vagrant/tournament'
-8. Enter the command "psql" to start the postgreSQL command editor
-9. Enter the command "\i tournament.sql" which will create the database, tables, and views
-10. Type "\c tournament" to connect to the database
-11. Type "\q" to exit psql and go back to vagrant
-12. Enter "python tournament_test.py" to run the tests and validate the code.
+5. Enter the command `vagrant up`
+6. Enter the command `vagrant ssh`
+7. Change directories to the tournament folder - `cd /vagrant/tournament`
+8. Enter the command `psql` to start the postgreSQL command editor
+9. Enter the command `\i tournament.sql` which will create the database, tables, and views
+10. Type `\c tournament` to connect to the database
+11. Type `\q` to exit psql and go back to vagrant
+12. Enter `python tournament_test.py` to run the tests and validate the code.
 
 If everything was done right, the console should display a list of actions performed by the code and read "Success! All tests passed!"
 
