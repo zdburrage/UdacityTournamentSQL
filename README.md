@@ -28,5 +28,8 @@ The test suite for tournament.py taht validates all of the SQL and python code t
 
 If everything was done right, the console should display a list of actions performed by the code and read "Success! All tests passed!"
 
+# Author
+Zachary Burrage
+
 
 
